@@ -1,20 +1,15 @@
 {
-<<<<<<< HEAD
   "name": "nexusfest-server",
   "version": "1.0.0",
   "description": "",
-  "keywords": [
-    "event",
-    "management"
-  ],
+  "keywords": ["event", "management"],
   "license": "ISC",
   "author": "karima",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
@@ -22,46 +17,11 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
-    "mongodb": "7.1",
+    "mongodb": "7.1.0",
     "mongoose": "^9.4.1",
     "nodemailer": "^8.0.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-=======
-  "name": "client",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "axios": "^1.15.2",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "react-icons": "^5.6.0",
-    "react-router-dom": "^7.14.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@eslint/js": "^10.0.1",
-    "@rolldown/plugin-babel": "^0.2.3",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
-    "autoprefixer": "^10.5.0",
-    "babel-plugin-react-compiler": "^1.0.0",
-    "eslint": "^10.2.1",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.5.0",
-    "postcss": "^8.5.10",
-    "tailwindcss": "^3.4.4",
-    "vite": "^8.0.10"
->>>>>>> 4a713ffa01642e9f670227ac561aa75b92259c86
   }
 }
